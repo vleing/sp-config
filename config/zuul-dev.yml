@@ -15,13 +15,6 @@ eureka:
 zuul: 
   retryable: true
 
-#默认转发规则 
-#  routes:
-#    item-service: /item-service/**
-#    user-service: /user-service/**
-#    order-service: /order-service/**
-
-
 ribbon:
   ConnectTimeout: 1000
   ReadTimeout: 1000
